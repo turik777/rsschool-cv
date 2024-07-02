@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#contact">Contact Info</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#code">Code Example</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section class="name">
+                <h1>Artur Bazaluk</h1>
+                <img src="assets/img/avatar.jpg" alt="My Photo">
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li><span>Location:</span> Russia, Moscow</li>
+                    <li><span>Phone:</span> +7 (916) 669-55-10</li>
+                    <li><span>Email:</span> artbazaluk@gmail.com</li>
+                    <li><span>Telegram:</span> <a href="https://t.me/themoonpresence">@themoonpresence</a></li>
+                    <li><span>Github:</span> <a href="https://github.com/turik777">turik777</a></li>
+                </ul>
+            </section>
+
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <p>Hi, I’m Artur, an aspiring self-taught frontend developer passionate about crafting pixel-perfect websites and immersive web experiences.</p>
+                <p>Looking ahead, my ultimate goal is to evolve into a versatile fullstack developer, bridging the gap between frontend aesthetics and backend functionality.</p>
+            </section>
+
+            <section class="skill" id="skill">
+                <h2>Skills</h2>
+                <ul>
+                    <li><span>Programming Languages</span>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript
+                                <ul>
+                                    <li>Basics</li>
+                                    <li>OOP</li>
+                                    <li>DOM</li>
+                                    <li>JSON</li>
+                                    <li>Modules</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><span>Version Control</span>
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </li>
+                    <li><span>Package Manager</span>
+                        <ul>
+                            <li>npm</li>
+                        </ul>
+                    </li>
+                    <li><span>Module Bundler</span>
+                        <ul>
+                            <li>Webpack</li>
+                        </ul>
+                    </li>
+                    <li><span>IDE</span>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                        </ul>
+                    </li>
+                    <li><span>OS</span>
+                        <ul>
+                            <li>Windows</li>
+                            <li>MacOS</li>
+                            <li>Linux (Ubuntu)</li>
+                        </ul>
+                    </li>
+                    <li><span>Other Tools</span>
+                        <ul>
+                            <li>Figma</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="code" id="code">
+                <h2>Code Example</h2>
+                <p>In this example, the fibonacci function calculates the n-th number in the Fibonacci sequence and prints it to the console.</p>
+                <pre><code>
+                    function fibonacci(n) {
+                        let fib = [0, 1];
+                        for (i = 2; i &lt;= n; i++) {
+                            fib[i] = fib[i - 2] + fib[i - 1];
+                        }
+                        console.log(fib.pop());
+                    }
+                
+                    fibonacci(3); // 2
+                    fibonacci(7); // 13
+                    fibonacci(77); // 5527939700884757
+                </code></pre>
+            </section>
+
+            <section class="experience" id="experience">
+                <h2>Experience</h2>
+                <h3><a href="https://turik777.github.io/etch-a-sketch/">Etch-a-Sketch</a></h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li><a href="https://github.com/turik777/etch-a-sketch">Source code</a></li>
+                </ul>
+                <h3><a href="https://turik777.github.io/calculator/">Calculator</a></h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li><a href="https://github.com/turik777/calculator">Source code</a></li>
+                </ul>
+                <h3><a href="https://turik777.github.io/tic-tac-toe/">Tic-Tac-Toe</a></h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li><a href="https://github.com/turik777/tic-tac-toe">Source code</a></li>
+                </ul>
+                <h3><a href="https://turik777.github.io/todo-list/">To Do List</a></h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript, npm, Webpack</li>
+                    <li><a href="https://github.com/turik777/todo-list">Source code</a></li>
+                </ul>
+            </section>
+
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><span>University:</span> Leonov Moscow Region University of Technology, IT and Control Systems</li>
+                    <li><span>Courses:</span>
+                        <ul>
+                            <li>freeCodeCamp
+                                <ul>
+                                    <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> (Progress: 100%)</li>
+                                </ul>
+                            </li>
+                            <li>W3Schools
+                                <ul>
+                                    <li><a href="https://www.w3schools.com/html/default.asp">Learn HTML</a> (Progress: 100%)</li>
+                                    <li><a href="https://www.w3schools.com/css/default.asp">Learn CSS</a> (Progress: 100%)</li>
+                                    <li><a href="https://www.w3schools.com/js/default.asp">Learn JavaScript</a> (Progress: 100%)</li>
+                                </ul>
+                            </li>
+                            <li>Codecademy
+                                <ul>
+                                    <li><a href="https://www.codecademy.com/enrolled/courses/learn-html">Learn HTML</a> (Progress: 100%)</li>
+                                    <li><a href="https://www.codecademy.com/enrolled/courses/learn-css">Learn CSS</a> (Progress: 100%)</li>
+                                    <li><a href="https://www.codecademy.com/enrolled/courses/learn-intermediate-css">Learn Intermediate CSS</a> (Progress: 100%)</li>
+                                    <li><a href="https://www.codecademy.com/enrolled/courses/introduction-to-javascript">Learn JavaScript</a> (Progress: 100%)</li>
+                                </ul>
+                            </li>
+                            <li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a>
+                                <ul>
+                                    <li>Part 1 (Progress: 100%)</li>
+                                    <li>Part 2 (Progress: 50%)</li>
+                                </ul>
+                            </li>
+                            <li>The Odin Project
+                                <ul>
+                                    <li><a href="https://www.theodinproject.com/paths/foundations/courses/foundations">Foundations</a> (Progress: 100%)</li>
+                                    <li>Full Stack JavaScript
+                                        <ul>
+                                            <li><a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css">Intermediate HTML and CSS Course</a> (Progress: 100%)</li>
+                                            <li><a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript">JavaScript</a> (Progress: 36%)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><span>Other:</span>
+                        <ul>
+                            <li><a href="https://www.npmjs.com/package/learnyouhtml">Learn You HTML</a> (Completed)</li>
+                            <li><a href="https://internetingishard.netlify.app/">Interneting is Hard</a> (Completed)</li>
+                            <li>Project Euler
+                                <ul>
+                                    <li><a href="https://projecteuler.net/problem=1">Multiples of 3 or 5</a> (Solved)</li>
+                                    <li><a href="https://projecteuler.net/problem=2">Even Fibonacci Numbers</a> (Solved)</li>
+                                    <li><a href="https://projecteuler.net/problem=3">Largest Prime Factor</a> (Solved)</li>
+                                    <li><a href="https://projecteuler.net/problem=4">Largest Palindrome Product</a> (Solved)</li>
+                                    <li><a href="https://projecteuler.net/problem=5">Smallest Multiple</a> (Solved)</li>
+                                    <li><a href="https://projecteuler.net/problem=6">Sum Square Difference</a> (In Progress)</li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.codewars.com/users/Turik777">Codewars</a> (5 kyu)</li>
+                            <li><a href="https://exploringjs.com/js/index.html">Exploring JavaScript</a> (Progress: Chapter VI - 31. Classes)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="language" id="language">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - <a href="https://cert.efset.org/6AYq7S">C1 Advanced</a><br>
+                        <img src="https://cdn.efset.org/efset-widget/img/v2/social-media/certificate/65.png" alt="EF SET 65/100 C1 Advanced">
+                    </li>
+                    <li>Ukrainian - Basic</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <a href="https://github.com/turik777">My Github</a>
+            <p>&copy; 2024 by Artur Bazaluk</p>
+            <a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/img/rsschool-logo.svg" alt="RS School"></a>
+        </footer>
+    </div>
+</body>
+</html>
