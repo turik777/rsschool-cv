@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #f5bcf6;
+    --secondary-color: #e34ae6;
+}
+
+/* Global */
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-color);
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 4px 8px rgba(0,0,0,0.25);
+}
+
+.menu ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.menu li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu a:hover{
+    background-color: #fff;
+    color: var(--secondary-color);
+}
